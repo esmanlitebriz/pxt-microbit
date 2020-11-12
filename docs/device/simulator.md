@@ -4,6 +4,7 @@ The JavaScript simulator allows you to test and execute most BBC micro:bit progr
 It allows you to emulate sensor data or user interactions.
 
 ```sim
+
 input.onButtonPressed(Button.A, () => {
    basic.showString("A");
 });
@@ -11,7 +12,7 @@ input.onButtonPressed(Button.B, () => {
    basic.showString("B");
 });
 input.onPinPressed(TouchPin.P0, () => {
-   basic.showString("0");
+   basic.showString("M");
 });
 input.onPinPressed(TouchPin.P1, () => {
    basic.showString("1");
